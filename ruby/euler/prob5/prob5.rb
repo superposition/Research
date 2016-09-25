@@ -1,0 +1,15 @@
+#usr/bin/ruby
+
+=begin
+
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+20! will be the ceiling value - if we iterate down to 1 - then we can evaluate 
+=end
+
+p ((1..20).reduce(:lcm))
+
+
+

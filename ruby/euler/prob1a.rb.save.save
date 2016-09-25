@@ -1,0 +1,9 @@
+# Eric Manganaro
+
+
+def sum_multiples(multiple, to)
+	n = (to-1)
+	n * (n+1) / 2 * multiple
+end
+
+puts  
