@@ -25,3 +25,5 @@ def most_common(L):
   # pick the highest-count/earliest item
   return max(groups, key=_auxfun)[0]
 
+  print most_common ([1,3,4,3,4,5,3,2,4,5,3,3,3,3,4])
+
