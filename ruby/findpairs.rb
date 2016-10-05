@@ -17,4 +17,6 @@ def find_sum(arr,sum)
 end
 
 
+p find_sum((1..12),10)
+
 
