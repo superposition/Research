@@ -50,4 +50,5 @@ def find_the_triplet
 
 end
 
-p @a
+find_the_triplet
+
