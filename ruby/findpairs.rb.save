@@ -1,0 +1,20 @@
+#!/usr/bin/ruby
+
+=begin 
+
+
+Find pairs in an integer array whose sum is equal to 10 
+
+(bonus: do it in linear time)
+
+=end
+
+def find_pairs(x,sum):
+    s = set(L)
+    for i in L:
+        diff = 10-i
+        s.remove(i)
+        if diff in s:
+            print i, diff
+end
+
